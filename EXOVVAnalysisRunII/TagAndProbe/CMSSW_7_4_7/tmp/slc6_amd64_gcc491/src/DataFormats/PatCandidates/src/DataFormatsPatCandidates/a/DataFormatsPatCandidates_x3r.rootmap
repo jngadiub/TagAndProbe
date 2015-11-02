@@ -1,0 +1,343 @@
+{ decls }
+namespace pat {  }
+namespace reco { class GsfElectron; }
+namespace reco { class Muon; }
+namespace reco { class BaseTau; }
+namespace reco { class Photon; }
+namespace reco { class Jet; }
+namespace reco { class MET; }
+namespace reco { class LeafCandidate; }
+namespace reco { class CompositeCandidate; }
+namespace reco { class PFCandidate; }
+namespace reco { class RecoCandidate; }
+namespace pat { template <typename LeptonType> class Lepton; }
+namespace edm {  }
+namespace edm { template <typename T> class AtomicPtrCache; }
+namespace reco { class Track; }
+namespace pat { namespace tau {  } }
+namespace std {  }
+namespace pat { class Electron; }
+namespace pat { class Muon; }
+namespace pat { class Tau; }
+namespace pat { class Jet; }
+namespace pat { class MET; }
+namespace pat { class Conversion; }
+namespace pat { class PackedCandidate; }
+namespace edm { template <typename T> class FwdPtr; }
+namespace edm { template <typename T> class Wrapper; }
+namespace __gnu_cxx {  }
+namespace __gnu_cxx { template <typename _Iterator, typename _Container> class __normal_iterator; }
+namespace pat { class Photon; }
+namespace pat { class MHT; }
+namespace pat { class Particle; }
+namespace pat { class CompositeCandidate; }
+namespace pat { class PFParticle; }
+namespace pat { class GenericParticle; }
+namespace pat { class Hemisphere; }
+namespace pat { class PackedGenParticle; }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+namespace edm { template <typename C, typename T, typename F> class Ref; }
+namespace edm { template <typename C, typename T, typename F> class RefVector; }
+namespace edm { namespace reftobase {  } }
+namespace reco { class Candidate; }
+namespace edm { namespace reftobase { template <typename T, typename REF> class Holder; } }
+namespace edm { namespace reftobase { template <typename REF> class RefHolder; } }
+namespace edm { namespace reftobase { template <typename REFV> class RefVectorHolder; } }
+namespace edm { namespace reftobase { template <typename T, typename REFV> class VectorHolder; } }
+namespace edm { template <typename C> class RefProd; }
+namespace edm { template <typename C> class Association; }
+namespace edm { template <typename T> class RefProd; }
+
+[ libDataFormatsPatCandidates.so ]
+# List of selected classes
+class __gnu_cxx::__normal_iterator<const pat::CompositeCandidate*,vector<pat::CompositeCandidate> >
+class __gnu_cxx::__normal_iterator<const pat::Conversion*,vector<pat::Conversion> >
+class __gnu_cxx::__normal_iterator<const pat::Electron*,vector<pat::Electron> >
+class __gnu_cxx::__normal_iterator<const pat::GenericParticle*,vector<pat::GenericParticle> >
+class __gnu_cxx::__normal_iterator<const pat::Hemisphere*,vector<pat::Hemisphere> >
+class __gnu_cxx::__normal_iterator<const pat::Jet*,vector<pat::Jet> >
+class __gnu_cxx::__normal_iterator<const pat::MET*,vector<pat::MET> >
+class __gnu_cxx::__normal_iterator<const pat::MHT*,vector<pat::MHT> >
+class __gnu_cxx::__normal_iterator<const pat::Muon*,vector<pat::Muon> >
+class __gnu_cxx::__normal_iterator<const pat::PFParticle*,vector<pat::PFParticle> >
+class __gnu_cxx::__normal_iterator<const pat::PackedCandidate*,vector<pat::PackedCandidate> >
+class __gnu_cxx::__normal_iterator<const pat::PackedGenParticle*,vector<pat::PackedGenParticle> >
+class __gnu_cxx::__normal_iterator<const pat::Particle*,vector<pat::Particle> >
+class __gnu_cxx::__normal_iterator<const pat::Photon*,vector<pat::Photon> >
+class __gnu_cxx::__normal_iterator<const pat::Tau*,vector<pat::Tau> >
+class edm::Association<pat::PackedCandidateCollection>
+class edm::Association<std::vector<pat::PackedGenParticle> >
+class edm::Association<vector<pat::PackedCandidate> >
+class edm::Association<vector<pat::PackedGenParticle> >
+class edm::AtomicPtrCache<edm::RefVector<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class edm::AtomicPtrCache<reco::TrackRefVector>
+class edm::AtomicPtrCache<std::vector<reco::PFCandidatePtr> >
+class edm::AtomicPtrCache<std::vector<reco::SuperCluster> >
+class edm::AtomicPtrCache<vector<edm::Ptr<reco::PFCandidate> > >
+class edm::AtomicPtrCache<vector<reco::SuperCluster> >
+class edm::FwdPtr<pat::PackedCandidate>
+class edm::Ptr<pat::Conversion>
+class edm::Ptr<pat::Electron>
+class edm::Ptr<pat::Jet>
+class edm::Ptr<pat::MET>
+class edm::Ptr<pat::Muon>
+class edm::Ptr<pat::Tau>
+class edm::Ref<vector<pat::CompositeCandidate>,pat::CompositeCandidate,edm::refhelper::FindUsingAdvance<vector<pat::CompositeCandidate>,pat::CompositeCandidate> >
+class edm::Ref<vector<pat::Conversion>,pat::Conversion,edm::refhelper::FindUsingAdvance<vector<pat::Conversion>,pat::Conversion> >
+class edm::Ref<vector<pat::Electron>,pat::Electron,edm::refhelper::FindUsingAdvance<vector<pat::Electron>,pat::Electron> >
+class edm::Ref<vector<pat::GenericParticle>,pat::GenericParticle,edm::refhelper::FindUsingAdvance<vector<pat::GenericParticle>,pat::GenericParticle> >
+class edm::Ref<vector<pat::Hemisphere>,pat::Hemisphere,edm::refhelper::FindUsingAdvance<vector<pat::Hemisphere>,pat::Hemisphere> >
+class edm::Ref<vector<pat::Jet>,pat::Jet,edm::refhelper::FindUsingAdvance<vector<pat::Jet>,pat::Jet> >
+class edm::Ref<vector<pat::MET>,pat::MET,edm::refhelper::FindUsingAdvance<vector<pat::MET>,pat::MET> >
+class edm::Ref<vector<pat::Muon>,pat::Muon,edm::refhelper::FindUsingAdvance<vector<pat::Muon>,pat::Muon> >
+class edm::Ref<vector<pat::PFParticle>,pat::PFParticle,edm::refhelper::FindUsingAdvance<vector<pat::PFParticle>,pat::PFParticle> >
+class edm::Ref<vector<pat::PackedCandidate>,pat::PackedCandidate,edm::refhelper::FindUsingAdvance<vector<pat::PackedCandidate>,pat::PackedCandidate> >
+class edm::Ref<vector<pat::PackedGenParticle>,pat::PackedGenParticle,edm::refhelper::FindUsingAdvance<vector<pat::PackedGenParticle>,pat::PackedGenParticle> >
+class edm::Ref<vector<pat::Particle>,pat::Particle,edm::refhelper::FindUsingAdvance<vector<pat::Particle>,pat::Particle> >
+class edm::Ref<vector<pat::Photon>,pat::Photon,edm::refhelper::FindUsingAdvance<vector<pat::Photon>,pat::Photon> >
+class edm::Ref<vector<pat::Tau>,pat::Tau,edm::refhelper::FindUsingAdvance<vector<pat::Tau>,pat::Tau> >
+class edm::RefProd<pat::PackedCandidateCollection>
+class edm::RefProd<std::vector<pat::PackedGenParticle> >
+class edm::RefProd<vector<pat::PackedCandidate> >
+class edm::RefProd<vector<pat::PackedGenParticle> >
+class edm::RefVector<vector<pat::CompositeCandidate>,pat::CompositeCandidate,edm::refhelper::FindUsingAdvance<vector<pat::CompositeCandidate>,pat::CompositeCandidate> >
+class edm::RefVector<vector<pat::Conversion>,pat::Conversion,edm::refhelper::FindUsingAdvance<vector<pat::Conversion>,pat::Conversion> >
+class edm::RefVector<vector<pat::Electron>,pat::Electron,edm::refhelper::FindUsingAdvance<vector<pat::Electron>,pat::Electron> >
+class edm::RefVector<vector<pat::GenericParticle>,pat::GenericParticle,edm::refhelper::FindUsingAdvance<vector<pat::GenericParticle>,pat::GenericParticle> >
+class edm::RefVector<vector<pat::Hemisphere>,pat::Hemisphere,edm::refhelper::FindUsingAdvance<vector<pat::Hemisphere>,pat::Hemisphere> >
+class edm::RefVector<vector<pat::Jet>,pat::Jet,edm::refhelper::FindUsingAdvance<vector<pat::Jet>,pat::Jet> >
+class edm::RefVector<vector<pat::MET>,pat::MET,edm::refhelper::FindUsingAdvance<vector<pat::MET>,pat::MET> >
+class edm::RefVector<vector<pat::Muon>,pat::Muon,edm::refhelper::FindUsingAdvance<vector<pat::Muon>,pat::Muon> >
+class edm::RefVector<vector<pat::PFParticle>,pat::PFParticle,edm::refhelper::FindUsingAdvance<vector<pat::PFParticle>,pat::PFParticle> >
+class edm::RefVector<vector<pat::PackedCandidate>,pat::PackedCandidate,edm::refhelper::FindUsingAdvance<vector<pat::PackedCandidate>,pat::PackedCandidate> >
+class edm::RefVector<vector<pat::PackedGenParticle>,pat::PackedGenParticle,edm::refhelper::FindUsingAdvance<vector<pat::PackedGenParticle>,pat::PackedGenParticle> >
+class edm::RefVector<vector<pat::Particle>,pat::Particle,edm::refhelper::FindUsingAdvance<vector<pat::Particle>,pat::Particle> >
+class edm::RefVector<vector<pat::Photon>,pat::Photon,edm::refhelper::FindUsingAdvance<vector<pat::Photon>,pat::Photon> >
+class edm::RefVector<vector<pat::Tau>,pat::Tau,edm::refhelper::FindUsingAdvance<vector<pat::Tau>,pat::Tau> >
+class edm::Wrapper<edm::Association<pat::PackedCandidateCollection> >
+class edm::Wrapper<edm::Association<std::vector<pat::PackedGenParticle> > >
+class edm::Wrapper<edm::Association<vector<pat::PackedCandidate> > >
+class edm::Wrapper<edm::Association<vector<pat::PackedGenParticle> > >
+class edm::Wrapper<edm::FwdPtr<pat::PackedCandidate> >
+class edm::Wrapper<edm::RefVector<vector<pat::CompositeCandidate>,pat::CompositeCandidate,edm::refhelper::FindUsingAdvance<vector<pat::CompositeCandidate>,pat::CompositeCandidate> > >
+class edm::Wrapper<edm::RefVector<vector<pat::Conversion>,pat::Conversion,edm::refhelper::FindUsingAdvance<vector<pat::Conversion>,pat::Conversion> > >
+class edm::Wrapper<edm::RefVector<vector<pat::Electron>,pat::Electron,edm::refhelper::FindUsingAdvance<vector<pat::Electron>,pat::Electron> > >
+class edm::Wrapper<edm::RefVector<vector<pat::GenericParticle>,pat::GenericParticle,edm::refhelper::FindUsingAdvance<vector<pat::GenericParticle>,pat::GenericParticle> > >
+class edm::Wrapper<edm::RefVector<vector<pat::Hemisphere>,pat::Hemisphere,edm::refhelper::FindUsingAdvance<vector<pat::Hemisphere>,pat::Hemisphere> > >
+class edm::Wrapper<edm::RefVector<vector<pat::Jet>,pat::Jet,edm::refhelper::FindUsingAdvance<vector<pat::Jet>,pat::Jet> > >
+class edm::Wrapper<edm::RefVector<vector<pat::MET>,pat::MET,edm::refhelper::FindUsingAdvance<vector<pat::MET>,pat::MET> > >
+class edm::Wrapper<edm::RefVector<vector<pat::Muon>,pat::Muon,edm::refhelper::FindUsingAdvance<vector<pat::Muon>,pat::Muon> > >
+class edm::Wrapper<edm::RefVector<vector<pat::PFParticle>,pat::PFParticle,edm::refhelper::FindUsingAdvance<vector<pat::PFParticle>,pat::PFParticle> > >
+class edm::Wrapper<edm::RefVector<vector<pat::Particle>,pat::Particle,edm::refhelper::FindUsingAdvance<vector<pat::Particle>,pat::Particle> > >
+class edm::Wrapper<edm::RefVector<vector<pat::Photon>,pat::Photon,edm::refhelper::FindUsingAdvance<vector<pat::Photon>,pat::Photon> > >
+class edm::Wrapper<edm::RefVector<vector<pat::Tau>,pat::Tau,edm::refhelper::FindUsingAdvance<vector<pat::Tau>,pat::Tau> > >
+class edm::Wrapper<pat::CompositeCandidateRefVector>
+class edm::Wrapper<pat::ConversionRefVector>
+class edm::Wrapper<pat::ElectronRefVector>
+class edm::Wrapper<pat::GenericParticleRefVector>
+class edm::Wrapper<pat::HemisphereRefVector>
+class edm::Wrapper<pat::JetRefVector>
+class edm::Wrapper<pat::METRefVector>
+class edm::Wrapper<pat::MuonRefVector>
+class edm::Wrapper<pat::PFParticleRefVector>
+class edm::Wrapper<pat::ParticleRefVector>
+class edm::Wrapper<pat::PhotonRefVector>
+class edm::Wrapper<pat::TauRefVector>
+class edm::Wrapper<std::vector<edm::FwdPtr<pat::PackedCandidate> > >
+class edm::Wrapper<std::vector<edm::Ptr<pat::Jet> > >
+class edm::Wrapper<std::vector<pat::CompositeCandidate> >
+class edm::Wrapper<std::vector<pat::Conversion> >
+class edm::Wrapper<std::vector<pat::Electron> >
+class edm::Wrapper<std::vector<pat::GenericParticle> >
+class edm::Wrapper<std::vector<pat::Hemisphere> >
+class edm::Wrapper<std::vector<pat::Jet> >
+class edm::Wrapper<std::vector<pat::MET> >
+class edm::Wrapper<std::vector<pat::MHT> >
+class edm::Wrapper<std::vector<pat::Muon> >
+class edm::Wrapper<std::vector<pat::PFParticle> >
+class edm::Wrapper<std::vector<pat::PackedCandidate> >
+class edm::Wrapper<std::vector<pat::PackedGenParticle> >
+class edm::Wrapper<std::vector<pat::Particle> >
+class edm::Wrapper<std::vector<pat::Photon> >
+class edm::Wrapper<std::vector<pat::Tau> >
+class edm::Wrapper<std::vector<std::vector<edm::Ptr<pat::Jet> > > >
+class edm::Wrapper<vector<edm::FwdPtr<pat::PackedCandidate> > >
+class edm::Wrapper<vector<edm::Ptr<pat::Jet> > >
+class edm::Wrapper<vector<pat::CompositeCandidate> >
+class edm::Wrapper<vector<pat::Conversion> >
+class edm::Wrapper<vector<pat::Electron> >
+class edm::Wrapper<vector<pat::GenericParticle> >
+class edm::Wrapper<vector<pat::Hemisphere> >
+class edm::Wrapper<vector<pat::Jet> >
+class edm::Wrapper<vector<pat::MET> >
+class edm::Wrapper<vector<pat::MHT> >
+class edm::Wrapper<vector<pat::Muon> >
+class edm::Wrapper<vector<pat::PFParticle> >
+class edm::Wrapper<vector<pat::PackedCandidate> >
+class edm::Wrapper<vector<pat::PackedGenParticle> >
+class edm::Wrapper<vector<pat::Particle> >
+class edm::Wrapper<vector<pat::Photon> >
+class edm::Wrapper<vector<pat::Tau> >
+class edm::Wrapper<vector<vector<edm::Ptr<pat::Jet> > > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::CompositeCandidate>,pat::CompositeCandidate,edm::refhelper::FindUsingAdvance<vector<pat::CompositeCandidate>,pat::CompositeCandidate> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::Electron>,pat::Electron,edm::refhelper::FindUsingAdvance<vector<pat::Electron>,pat::Electron> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::GenericParticle>,pat::GenericParticle,edm::refhelper::FindUsingAdvance<vector<pat::GenericParticle>,pat::GenericParticle> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::Jet>,pat::Jet,edm::refhelper::FindUsingAdvance<vector<pat::Jet>,pat::Jet> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::MET>,pat::MET,edm::refhelper::FindUsingAdvance<vector<pat::MET>,pat::MET> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::Muon>,pat::Muon,edm::refhelper::FindUsingAdvance<vector<pat::Muon>,pat::Muon> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::PFParticle>,pat::PFParticle,edm::refhelper::FindUsingAdvance<vector<pat::PFParticle>,pat::PFParticle> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::Particle>,pat::Particle,edm::refhelper::FindUsingAdvance<vector<pat::Particle>,pat::Particle> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::Photon>,pat::Photon,edm::refhelper::FindUsingAdvance<vector<pat::Photon>,pat::Photon> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::Tau>,pat::Tau,edm::refhelper::FindUsingAdvance<vector<pat::Tau>,pat::Tau> > >
+class edm::reftobase::Holder<reco::Candidate,pat::CompositeCandidateRef>
+class edm::reftobase::Holder<reco::Candidate,pat::ElectronRef>
+class edm::reftobase::Holder<reco::Candidate,pat::GenericParticleRef>
+class edm::reftobase::Holder<reco::Candidate,pat::JetRef>
+class edm::reftobase::Holder<reco::Candidate,pat::METRef>
+class edm::reftobase::Holder<reco::Candidate,pat::MuonRef>
+class edm::reftobase::Holder<reco::Candidate,pat::PFParticleRef>
+class edm::reftobase::Holder<reco::Candidate,pat::ParticleRef>
+class edm::reftobase::Holder<reco::Candidate,pat::PhotonRef>
+class edm::reftobase::Holder<reco::Candidate,pat::TauRef>
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::CompositeCandidate>,pat::CompositeCandidate,edm::refhelper::FindUsingAdvance<vector<pat::CompositeCandidate>,pat::CompositeCandidate> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::Electron>,pat::Electron,edm::refhelper::FindUsingAdvance<vector<pat::Electron>,pat::Electron> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::GenericParticle>,pat::GenericParticle,edm::refhelper::FindUsingAdvance<vector<pat::GenericParticle>,pat::GenericParticle> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::Jet>,pat::Jet,edm::refhelper::FindUsingAdvance<vector<pat::Jet>,pat::Jet> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::MET>,pat::MET,edm::refhelper::FindUsingAdvance<vector<pat::MET>,pat::MET> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::Muon>,pat::Muon,edm::refhelper::FindUsingAdvance<vector<pat::Muon>,pat::Muon> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::PFParticle>,pat::PFParticle,edm::refhelper::FindUsingAdvance<vector<pat::PFParticle>,pat::PFParticle> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::Particle>,pat::Particle,edm::refhelper::FindUsingAdvance<vector<pat::Particle>,pat::Particle> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::Photon>,pat::Photon,edm::refhelper::FindUsingAdvance<vector<pat::Photon>,pat::Photon> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::Tau>,pat::Tau,edm::refhelper::FindUsingAdvance<vector<pat::Tau>,pat::Tau> > >
+class edm::reftobase::RefHolder<pat::CompositeCandidateRef>
+class edm::reftobase::RefHolder<pat::ElectronRef>
+class edm::reftobase::RefHolder<pat::GenericParticleRef>
+class edm::reftobase::RefHolder<pat::JetRef>
+class edm::reftobase::RefHolder<pat::METRef>
+class edm::reftobase::RefHolder<pat::MuonRef>
+class edm::reftobase::RefHolder<pat::PFParticleRef>
+class edm::reftobase::RefHolder<pat::ParticleRef>
+class edm::reftobase::RefHolder<pat::PhotonRef>
+class edm::reftobase::RefHolder<pat::TauRef>
+class edm::reftobase::RefVectorHolder<edm::RefVector<vector<pat::CompositeCandidate>,pat::CompositeCandidate,edm::refhelper::FindUsingAdvance<vector<pat::CompositeCandidate>,pat::CompositeCandidate> > >
+class edm::reftobase::RefVectorHolder<pat::CompositeCandidateRefVector>
+class edm::reftobase::VectorHolder<reco::Candidate,edm::RefVector<vector<pat::CompositeCandidate>,pat::CompositeCandidate,edm::refhelper::FindUsingAdvance<vector<pat::CompositeCandidate>,pat::CompositeCandidate> > >
+class edm::reftobase::VectorHolder<reco::Candidate,pat::CompositeCandidateRefVector>
+class pat::CompositeCandidate
+class pat::CompositeCandidateRef
+class pat::CompositeCandidateRefVector
+class pat::Conversion
+class pat::ConversionRef
+class pat::ConversionRefVector
+class pat::Electron
+class pat::ElectronRef
+class pat::ElectronRefVector
+class pat::GenericParticle
+class pat::GenericParticleRef
+class pat::GenericParticleRefVector
+class pat::Hemisphere
+class pat::HemisphereRef
+class pat::HemisphereRefVector
+class pat::Jet
+class pat::JetRef
+class pat::JetRefVector
+class pat::Lepton<reco::BaseTau>
+class pat::Lepton<reco::GsfElectron>
+class pat::Lepton<reco::Muon>
+class pat::MET
+class pat::MET::PackedMETUncertainty
+class pat::MET::Vector2
+class pat::METRef
+class pat::METRefVector
+class pat::MHT
+class pat::Muon
+class pat::MuonRef
+class pat::MuonRefVector
+class pat::PATObject<reco::BaseTau>
+class pat::PATObject<reco::CompositeCandidate>
+class pat::PATObject<reco::GsfElectron>
+class pat::PATObject<reco::Jet>
+class pat::PATObject<reco::LeafCandidate>
+class pat::PATObject<reco::MET>
+class pat::PATObject<reco::Muon>
+class pat::PATObject<reco::PFCandidate>
+class pat::PATObject<reco::Photon>
+class pat::PATObject<reco::RecoCandidate>
+class pat::PFParticle
+class pat::PFParticleRef
+class pat::PFParticleRefVector
+class pat::PackedCandidate
+class pat::PackedCandidateRef
+class pat::PackedCandidateRefVector
+class pat::PackedGenParticle
+class pat::PackedGenParticleRef
+class pat::PackedGenParticleRefVector
+class pat::Particle
+class pat::ParticleRef
+class pat::ParticleRefVector
+class pat::Photon
+class pat::PhotonRef
+class pat::PhotonRefVector
+class pat::Tau
+class pat::TauRef
+class pat::TauRefVector
+class pat::tau::TauCaloSpecific
+class pat::tau::TauPFEssential
+class pat::tau::TauPFSpecific
+class vector<edm::FwdPtr<pat::PackedCandidate> >
+class vector<edm::Ptr<pat::Jet> >
+class vector<pat::CompositeCandidate>
+class vector<pat::CompositeCandidate>::const_iterator
+class vector<pat::Conversion>
+class vector<pat::Conversion>::const_iterator
+class vector<pat::Electron>
+class vector<pat::Electron>::const_iterator
+class vector<pat::GenericParticle>
+class vector<pat::GenericParticle>::const_iterator
+class vector<pat::Hemisphere>
+class vector<pat::Hemisphere>::const_iterator
+class vector<pat::Jet>
+class vector<pat::Jet>::const_iterator
+class vector<pat::MET::PackedMETUncertainty>
+class vector<pat::MET>
+class vector<pat::MET>::const_iterator
+class vector<pat::MHT>
+class vector<pat::MHT>::const_iterator
+class vector<pat::Muon>
+class vector<pat::Muon>::const_iterator
+class vector<pat::PFParticle>
+class vector<pat::PFParticle>::const_iterator
+class vector<pat::PackedCandidate>
+class vector<pat::PackedCandidate>::const_iterator
+class vector<pat::PackedGenParticle>
+class vector<pat::PackedGenParticle>::const_iterator
+class vector<pat::Particle>
+class vector<pat::Particle>::const_iterator
+class vector<pat::Photon>
+class vector<pat::Photon>::const_iterator
+class vector<pat::Tau>
+class vector<pat::Tau>::const_iterator
+class vector<pat::tau::TauCaloSpecific>
+class vector<pat::tau::TauPFEssential>
+class vector<pat::tau::TauPFSpecific>
+class vector<std::vector<edm::Ptr<pat::Jet> > >
+class vector<vector<edm::Ptr<pat::Jet> > >
+header DataFormats/PatCandidates/interface/CompositeCandidate.h
+header DataFormats/PatCandidates/interface/Conversion.h
+header DataFormats/PatCandidates/interface/Electron.h
+header DataFormats/PatCandidates/interface/GenericParticle.h
+header DataFormats/PatCandidates/interface/Hemisphere.h
+header DataFormats/PatCandidates/interface/Jet.h
+header DataFormats/PatCandidates/interface/MET.h
+header DataFormats/PatCandidates/interface/MHT.h
+header DataFormats/PatCandidates/interface/Muon.h
+header DataFormats/PatCandidates/interface/PFParticle.h
+header DataFormats/PatCandidates/interface/PackedCandidate.h
+header DataFormats/PatCandidates/interface/PackedGenParticle.h
+header DataFormats/PatCandidates/interface/Particle.h
+header DataFormats/PatCandidates/interface/Photon.h
+header DataFormats/PatCandidates/interface/Tau.h
+header DataFormats/PatCandidates/interface/TauCaloSpecific.h
+header DataFormats/PatCandidates/interface/TauPFEssential.h
+header DataFormats/PatCandidates/interface/TauPFSpecific.h
+# List of selected typedefs and outer classes

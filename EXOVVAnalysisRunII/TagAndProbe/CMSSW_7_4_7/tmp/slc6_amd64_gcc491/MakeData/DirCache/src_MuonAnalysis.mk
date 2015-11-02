@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=MuonAnalysis
+subdirs_src_MuonAnalysis = src_MuonAnalysis_MuonAssociators src_MuonAnalysis_TagAndProbe

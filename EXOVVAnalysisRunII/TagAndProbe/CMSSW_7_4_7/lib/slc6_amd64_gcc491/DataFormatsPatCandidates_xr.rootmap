@@ -1,0 +1,73 @@
+{ decls }
+namespace std {  }
+namespace edm {  }
+namespace edm { template <typename T> class Wrapper; }
+namespace pat {  }
+namespace pat { class JetCorrFactors; }
+namespace edm { template <typename T> class ValueMap; }
+namespace pat { class TauJetCorrFactors; }
+class StringMap;
+namespace pat { class VertexAssociation; }
+namespace pat { class LookupTableRecord; }
+namespace pat { class CandKinResolution; }
+namespace vid {  }
+namespace vid { class CutFlowResult; }
+namespace pat { template <typename T> class UserHolder; }
+
+[ libDataFormatsPatCandidates.so ]
+# List of selected classes
+class StringMap
+class edm::ValueMap<pat::CandKinResolution>
+class edm::ValueMap<pat::JetCorrFactors>
+class edm::ValueMap<pat::LookupTableRecord>
+class edm::ValueMap<pat::TauJetCorrFactors>
+class edm::ValueMap<pat::VertexAssociation>
+class edm::ValueMap<vid::CutFlowResult>
+class edm::Wrapper<StringMap>
+class edm::Wrapper<edm::ValueMap<pat::CandKinResolution> >
+class edm::Wrapper<edm::ValueMap<pat::JetCorrFactors> >
+class edm::Wrapper<edm::ValueMap<pat::LookupTableRecord> >
+class edm::Wrapper<edm::ValueMap<pat::TauJetCorrFactors> >
+class edm::Wrapper<edm::ValueMap<pat::VertexAssociation> >
+class edm::Wrapper<edm::ValueMap<vid::CutFlowResult> >
+class edm::Wrapper<pair<string,vector<float> > >
+class edm::Wrapper<pat::CandKinResolutionValueMap>
+class edm::Wrapper<std::pair<std::string,std::vector<float> > >
+class edm::Wrapper<std::vector<pat::EventHypothesis> >
+class edm::Wrapper<std::vector<pat::JetCorrFactors::CorrectionFactor> >
+class edm::Wrapper<vector<pair<string,vector<float> > > >
+class edm::Wrapper<vector<pat::EventHypothesis> >
+class edm::Wrapper<vid::CutFlowResult>
+class pair<pat::IsolationKeys,reco::IsoDeposit>
+class pair<std::string,std::vector<float> >
+class pair<string,vector<float> >
+class pat::CandKinResolution
+class pat::CandKinResolutionValueMap
+class pat::EventHypothesis
+class pat::JetCorrFactors
+class pat::LookupTableRecord
+class pat::TauJetCorrFactors
+class pat::UserHolder<vid::CutFlowResult>
+class pat::VertexAssociation
+class vector<pair<pat::IsolationKeys,reco::IsoDeposit> >
+class vector<pair<string,vector<float> > >
+class vector<pat::CandKinResolution>
+class vector<pat::EventHypothesis>
+class vector<pat::JetCorrFactors::CorrectionFactor>
+class vector<pat::JetCorrFactors>
+class vector<pat::LookupTableRecord>
+class vector<pat::TauJetCorrFactors>
+class vector<pat::VertexAssociation>
+class vector<std::pair<pat::IsolationKeys,reco::IsoDeposit> >
+class vid::CutFlowResult
+header DataFormats/PatCandidates/interface/StringMap.h
+header DataFormats/PatCandidates/interface/CandKinResolution.h
+header DataFormats/PatCandidates/interface/EventHypothesis.h
+header DataFormats/PatCandidates/interface/JetCorrFactors.h
+header DataFormats/PatCandidates/interface/LookupTableRecord.h
+header DataFormats/PatCandidates/interface/TauJetCorrFactors.h
+header DataFormats/PatCandidates/interface/Vertexing.h
+header DataFormats/PatCandidates/interface/VIDCutFlowResult.h
+# List of selected typedefs and outer classes
+# List of selected enums and outer classes
+enum pat::IsolationKeys

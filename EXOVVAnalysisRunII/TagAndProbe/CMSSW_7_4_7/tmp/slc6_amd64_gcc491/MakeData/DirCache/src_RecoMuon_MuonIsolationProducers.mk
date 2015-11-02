@@ -1,0 +1,2 @@
+ALL_PACKAGES += RecoMuon/MuonIsolationProducers
+subdirs_src_RecoMuon_MuonIsolationProducers := src_RecoMuon_MuonIsolationProducers_test src_RecoMuon_MuonIsolationProducers_plugins src_RecoMuon_MuonIsolationProducers_python

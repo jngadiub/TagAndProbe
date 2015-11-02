@@ -1,0 +1,12 @@
+plugin-poisoned-RecoMuonMuonIsolationProducersPlugins.so MuIsoCandidateResultProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonMuonIsolationProducersPlugins.so MuIsoCandidateResultProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoMuonMuonIsolationProducersPlugins.so MuIsoDepositCopyProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonMuonIsolationProducersPlugins.so MuIsoDepositCopyProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoMuonMuonIsolationProducersPlugins.so MuIsoDepositProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonMuonIsolationProducersPlugins.so MuIsoDepositProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoMuonMuonIsolationProducersPlugins.so MuIsoTrackResultProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonMuonIsolationProducersPlugins.so MuIsoTrackResultProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-MuIsoDepositAnalyzer.so MuIsoDepositAnalyzer CMS%EDM%Framework%Module
+plugin-poisoned-MuIsoDepositAnalyzer.so MuIsoDepositAnalyzer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-IsolationExample.so IsolationExample CMS%EDM%Framework%Module
+plugin-poisoned-IsolationExample.so IsolationExample CMS%EDM%Framework%ParameterSet%Description

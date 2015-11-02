@@ -1,0 +1,12 @@
+tmp/slc6_amd64_gcc491/src/RecoMuon/MuonIsolationProducers/plugins/RecoMuonMuonIsolationProducersPlugins/MuIsoDepositCopyProducer.o: \
+ src/RecoMuon/MuonIsolationProducers/plugins/MuIsoDepositCopyProducer.cc \
+ src/RecoMuon/MuonIsolationProducers/plugins/MuIsoDepositCopyProducer.h \
+
+tmp/slc6_amd64_gcc491/src/RecoMuon/MuonIsolationProducers/plugins/RecoMuonMuonIsolationProducersPlugins/MuIsoDepositProducer.o: \
+ src/RecoMuon/MuonIsolationProducers/plugins/MuIsoDepositProducer.cc \
+ src/RecoMuon/MuonIsolationProducers/plugins/MuIsoDepositProducer.h \
+
+tmp/slc6_amd64_gcc491/src/RecoMuon/MuonIsolationProducers/plugins/RecoMuonMuonIsolationProducersPlugins/MuIsoResultProducers.o: \
+ src/RecoMuon/MuonIsolationProducers/plugins/MuIsoResultProducers.cc \
+ src/RecoMuon/MuonIsolationProducers/plugins/MuIsolatorResultProducer.h \
+

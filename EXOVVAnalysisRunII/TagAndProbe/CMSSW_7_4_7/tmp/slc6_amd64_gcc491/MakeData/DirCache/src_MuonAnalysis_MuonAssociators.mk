@@ -1,0 +1,2 @@
+ALL_PACKAGES += MuonAnalysis/MuonAssociators
+subdirs_src_MuonAnalysis_MuonAssociators := src_MuonAnalysis_MuonAssociators_src src_MuonAnalysis_MuonAssociators_python src_MuonAnalysis_MuonAssociators_test src_MuonAnalysis_MuonAssociators_plugins

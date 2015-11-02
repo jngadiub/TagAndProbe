@@ -1,0 +1,173 @@
+{ decls }
+namespace pat {  }
+namespace std {  }
+namespace __gnu_cxx {  }
+namespace pat { class TriggerObject; }
+namespace edm {  }
+namespace edm { template <typename T> class Wrapper; }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+namespace edm { template <typename C> class RefProd; }
+namespace edm { template <typename C, typename T, typename F> class RefVector; }
+namespace edm { template <typename C, typename T, typename F> class RefVectorIterator; }
+namespace edm { template <typename C> class Association; }
+namespace edm { namespace reftobase {  } }
+namespace reco { class Candidate; }
+namespace edm { template <typename C, typename T, typename F> class Ref; }
+namespace pat { class TriggerObjectStandAlone; }
+namespace edm { namespace reftobase { template <typename T, typename REF> class Holder; } }
+namespace edm { namespace reftobase { template <typename REF> class RefHolder; } }
+namespace pat { class TriggerFilter; }
+namespace pat { class TriggerPath; }
+namespace __gnu_cxx { template <typename _Iterator, typename _Container> class __normal_iterator; }
+namespace pat { class TriggerCondition; }
+namespace pat { class TriggerAlgorithm; }
+namespace pat { class TriggerEvent; }
+namespace pat { class PackedTriggerPrescales; }
+
+[ libDataFormatsPatCandidates.so ]
+# List of selected classes
+class _Rb_tree_const_iterator<pair<const string,edm::RefProd<edm::Association<vector<pat::TriggerObject> > > > >
+class __gnu_cxx::__normal_iterator<const pair<bool,string>*,vector<pair<bool,string> > >
+class __gnu_cxx::__normal_iterator<const pat::TriggerAlgorithm*,vector<pat::TriggerAlgorithm> >
+class __gnu_cxx::__normal_iterator<const pat::TriggerCondition*,vector<pat::TriggerCondition> >
+class __gnu_cxx::__normal_iterator<const pat::TriggerFilter*,vector<pat::TriggerFilter> >
+class __gnu_cxx::__normal_iterator<const pat::TriggerObject*,vector<pat::TriggerObject> >
+class __gnu_cxx::__normal_iterator<const pat::TriggerObjectStandAlone*,vector<pat::TriggerObjectStandAlone> >
+class __gnu_cxx::__normal_iterator<const pat::TriggerPath*,vector<pat::TriggerPath> >
+class edm::Association<std::vector<pat::TriggerObject> >
+class edm::Association<std::vector<pat::TriggerObjectStandAlone> >
+class edm::Association<vector<pat::TriggerObject> >
+class edm::Association<vector<pat::TriggerObjectStandAlone> >
+class edm::Ref<vector<pat::TriggerAlgorithm>,pat::TriggerAlgorithm,edm::refhelper::FindUsingAdvance<vector<pat::TriggerAlgorithm>,pat::TriggerAlgorithm> >
+class edm::Ref<vector<pat::TriggerCondition>,pat::TriggerCondition,edm::refhelper::FindUsingAdvance<vector<pat::TriggerCondition>,pat::TriggerCondition> >
+class edm::Ref<vector<pat::TriggerFilter>,pat::TriggerFilter,edm::refhelper::FindUsingAdvance<vector<pat::TriggerFilter>,pat::TriggerFilter> >
+class edm::Ref<vector<pat::TriggerObject>,pat::TriggerObject,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObject>,pat::TriggerObject> >
+class edm::Ref<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone> >
+class edm::Ref<vector<pat::TriggerPath>,pat::TriggerPath,edm::refhelper::FindUsingAdvance<vector<pat::TriggerPath>,pat::TriggerPath> >
+class edm::RefProd<edm::Association<std::vector<pat::TriggerObject> > >
+class edm::RefProd<edm::Association<vector<pat::TriggerObject> > >
+class edm::RefProd<vector<pat::TriggerAlgorithm> >
+class edm::RefProd<vector<pat::TriggerCondition> >
+class edm::RefProd<vector<pat::TriggerFilter> >
+class edm::RefProd<vector<pat::TriggerObject> >
+class edm::RefProd<vector<pat::TriggerObjectStandAlone> >
+class edm::RefProd<vector<pat::TriggerPath> >
+class edm::RefVector<vector<pat::TriggerAlgorithm>,pat::TriggerAlgorithm,edm::refhelper::FindUsingAdvance<vector<pat::TriggerAlgorithm>,pat::TriggerAlgorithm> >
+class edm::RefVector<vector<pat::TriggerCondition>,pat::TriggerCondition,edm::refhelper::FindUsingAdvance<vector<pat::TriggerCondition>,pat::TriggerCondition> >
+class edm::RefVector<vector<pat::TriggerFilter>,pat::TriggerFilter,edm::refhelper::FindUsingAdvance<vector<pat::TriggerFilter>,pat::TriggerFilter> >
+class edm::RefVector<vector<pat::TriggerObject>,pat::TriggerObject,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObject>,pat::TriggerObject> >
+class edm::RefVector<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone> >
+class edm::RefVector<vector<pat::TriggerPath>,pat::TriggerPath,edm::refhelper::FindUsingAdvance<vector<pat::TriggerPath>,pat::TriggerPath> >
+class edm::RefVectorIterator<vector<pat::TriggerAlgorithm>,pat::TriggerAlgorithm,edm::refhelper::FindUsingAdvance<vector<pat::TriggerAlgorithm>,pat::TriggerAlgorithm> >
+class edm::RefVectorIterator<vector<pat::TriggerCondition>,pat::TriggerCondition,edm::refhelper::FindUsingAdvance<vector<pat::TriggerCondition>,pat::TriggerCondition> >
+class edm::RefVectorIterator<vector<pat::TriggerFilter>,pat::TriggerFilter,edm::refhelper::FindUsingAdvance<vector<pat::TriggerFilter>,pat::TriggerFilter> >
+class edm::RefVectorIterator<vector<pat::TriggerObject>,pat::TriggerObject,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObject>,pat::TriggerObject> >
+class edm::RefVectorIterator<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone> >
+class edm::RefVectorIterator<vector<pat::TriggerPath>,pat::TriggerPath,edm::refhelper::FindUsingAdvance<vector<pat::TriggerPath>,pat::TriggerPath> >
+class edm::Wrapper<edm::Association<std::vector<pat::TriggerObject> > >
+class edm::Wrapper<edm::Association<std::vector<pat::TriggerObjectStandAlone> > >
+class edm::Wrapper<edm::Association<vector<pat::TriggerObject> > >
+class edm::Wrapper<edm::Association<vector<pat::TriggerObjectStandAlone> > >
+class edm::Wrapper<edm::RefProd<vector<pat::TriggerAlgorithm> > >
+class edm::Wrapper<edm::RefProd<vector<pat::TriggerCondition> > >
+class edm::Wrapper<edm::RefProd<vector<pat::TriggerFilter> > >
+class edm::Wrapper<edm::RefProd<vector<pat::TriggerObject> > >
+class edm::Wrapper<edm::RefProd<vector<pat::TriggerObjectStandAlone> > >
+class edm::Wrapper<edm::RefProd<vector<pat::TriggerPath> > >
+class edm::Wrapper<map<string,edm::RefProd<edm::Association<vector<pat::TriggerObject> > > > >
+class edm::Wrapper<pat::PackedTriggerPrescales>
+class edm::Wrapper<pat::TriggerAlgorithmRefProd>
+class edm::Wrapper<pat::TriggerConditionRefProd>
+class edm::Wrapper<pat::TriggerEvent>
+class edm::Wrapper<pat::TriggerFilterRefProd>
+class edm::Wrapper<pat::TriggerObjectRefProd>
+class edm::Wrapper<pat::TriggerObjectStandAloneRefProd>
+class edm::Wrapper<pat::TriggerPathRefProd>
+class edm::Wrapper<std::map<std::string,edm::RefProd<edm::Association<std::vector<pat::TriggerObject> > > > >
+class edm::Wrapper<std::vector<pat::TriggerAlgorithm> >
+class edm::Wrapper<std::vector<pat::TriggerCondition> >
+class edm::Wrapper<std::vector<pat::TriggerFilter> >
+class edm::Wrapper<std::vector<pat::TriggerObject> >
+class edm::Wrapper<std::vector<pat::TriggerObjectStandAlone> >
+class edm::Wrapper<std::vector<pat::TriggerPath> >
+class edm::Wrapper<vector<pat::TriggerAlgorithm> >
+class edm::Wrapper<vector<pat::TriggerCondition> >
+class edm::Wrapper<vector<pat::TriggerFilter> >
+class edm::Wrapper<vector<pat::TriggerObject> >
+class edm::Wrapper<vector<pat::TriggerObjectStandAlone> >
+class edm::Wrapper<vector<pat::TriggerPath> >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::TriggerObject>,pat::TriggerObject,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObject>,pat::TriggerObject> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone> > >
+class edm::reftobase::Holder<reco::Candidate,pat::TriggerObjectRef>
+class edm::reftobase::Holder<reco::Candidate,pat::TriggerObjectStandAloneRef>
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::TriggerObject>,pat::TriggerObject,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObject>,pat::TriggerObject> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObjectStandAlone>,pat::TriggerObjectStandAlone> > >
+class edm::reftobase::RefHolder<pat::TriggerObjectRef>
+class edm::reftobase::RefHolder<pat::TriggerObjectStandAloneRef>
+class map<std::string,edm::RefProd<edm::Association<std::vector<pat::TriggerObject> > > >
+class map<std::string,edm::RefProd<edm::Association<std::vector<pat::TriggerObject> > > >::const_iterator
+class map<std::string,pat::TriggerObjectRef>
+class map<string,edm::Ref<vector<pat::TriggerObject>,pat::TriggerObject,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObject>,pat::TriggerObject> > >
+class map<string,edm::RefProd<edm::Association<vector<pat::TriggerObject> > > >
+class pair<bool,string>
+class pair<std::string,edm::RefProd<edm::Association<std::vector<pat::TriggerObject> > > >
+class pair<std::string,pat::TriggerObjectRef>
+class pair<string,edm::Ref<vector<pat::TriggerObject>,pat::TriggerObject,edm::refhelper::FindUsingAdvance<vector<pat::TriggerObject>,pat::TriggerObject> > >
+class pair<string,edm::RefProd<edm::Association<vector<pat::TriggerObject> > > >
+class pat::L1Seed
+class pat::PackedTriggerPrescales
+class pat::TriggerAlgorithm
+class pat::TriggerAlgorithmRef
+class pat::TriggerAlgorithmRefProd
+class pat::TriggerAlgorithmRefVector
+class pat::TriggerAlgorithmRefVectorIterator
+class pat::TriggerCondition
+class pat::TriggerConditionRef
+class pat::TriggerConditionRefProd
+class pat::TriggerConditionRefVector
+class pat::TriggerConditionRefVectorIterator
+class pat::TriggerEvent
+class pat::TriggerFilter
+class pat::TriggerFilterRef
+class pat::TriggerFilterRefProd
+class pat::TriggerFilterRefVector
+class pat::TriggerFilterRefVectorIterator
+class pat::TriggerObject
+class pat::TriggerObjectRef
+class pat::TriggerObjectRefProd
+class pat::TriggerObjectRefVector
+class pat::TriggerObjectRefVectorIterator
+class pat::TriggerObjectStandAlone
+class pat::TriggerObjectStandAloneRef
+class pat::TriggerObjectStandAloneRefProd
+class pat::TriggerObjectStandAloneRefVector
+class pat::TriggerObjectStandAloneRefVectorIterator
+class pat::TriggerPath
+class pat::TriggerPathRef
+class pat::TriggerPathRefProd
+class pat::TriggerPathRefVector
+class pat::TriggerPathRefVectorIterator
+class vector<pair<bool,string> >
+class vector<pat::L1Seed>
+class vector<pat::L1Seed>::const_iterator
+class vector<pat::TriggerAlgorithm>
+class vector<pat::TriggerAlgorithm>::const_iterator
+class vector<pat::TriggerCondition>
+class vector<pat::TriggerCondition>::const_iterator
+class vector<pat::TriggerFilter>
+class vector<pat::TriggerFilter>::const_iterator
+class vector<pat::TriggerObject>
+class vector<pat::TriggerObject>::const_iterator
+class vector<pat::TriggerObjectStandAlone>
+class vector<pat::TriggerObjectStandAlone>::const_iterator
+class vector<pat::TriggerPath>
+class vector<pat::TriggerPath>::const_iterator
+header DataFormats/PatCandidates/interface/PackedTriggerPrescales.h
+header DataFormats/PatCandidates/interface/TriggerAlgorithm.h
+header DataFormats/PatCandidates/interface/TriggerCondition.h
+header DataFormats/PatCandidates/interface/TriggerEvent.h
+header DataFormats/PatCandidates/interface/TriggerFilter.h
+header DataFormats/PatCandidates/interface/TriggerObject.h
+header DataFormats/PatCandidates/interface/TriggerObjectStandAlone.h
+header DataFormats/PatCandidates/interface/TriggerPath.h
+# List of selected typedefs and outer classes

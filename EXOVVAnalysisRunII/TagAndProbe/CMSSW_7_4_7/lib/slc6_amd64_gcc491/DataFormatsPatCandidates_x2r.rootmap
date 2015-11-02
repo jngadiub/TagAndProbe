@@ -1,0 +1,49 @@
+{ decls }
+namespace pat {  }
+namespace std {  }
+namespace edm {  }
+namespace pat { class UserData; }
+namespace edm { template <typename T> class ClonePolicy; }
+namespace edm { template <typename T> class Ptr; }
+namespace edm { template <typename T> class ValueMap; }
+namespace edm { template <typename T> class Wrapper; }
+namespace pat { template <typename T> class UserHolder; }
+namespace reco { class Vertex; }
+namespace reco { class Track; }
+namespace ROOT { namespace Math { template <typename T, unsigned int> class SVector; } }
+namespace ROOT { namespace Math { template <typename T, unsigned int> class MatRepSym; } }
+namespace ROOT { namespace Math { template <typename T, unsigned int, unsigned int, typename R> class SMatrix; } }
+namespace ROOT { namespace Math { template <typename ScalarType> class PtEtaPhiM4D; } }
+namespace ROOT { namespace Math { template <typename ScalarType> class PxPyPzE4D; } }
+namespace ROOT { namespace Math { template <typename T> class Cartesian3D; } }
+namespace ROOT { namespace Math { class DefaultCoordinateSystemTag; } }
+
+[ libDataFormatsPatCandidates.so ]
+# List of selected classes
+class edm::OwnVector<pat::UserData,edm::ClonePolicy<pat::UserData> >
+class edm::Ptr<pat::UserData>
+class edm::ValueMap<edm::Ptr<pat::UserData> >
+class edm::Wrapper<edm::OwnVector<pat::UserData,edm::ClonePolicy<pat::UserData> > >
+class edm::Wrapper<edm::ValueMap<edm::Ptr<pat::UserData> > >
+class edm::Wrapper<pat::UserDataCollection>
+class pat::UserData
+class pat::UserDataCollection
+class pat::UserHolder<ROOT::Math::DisplacementVector3D<ROOT::Math::Cartesian3D<double>,ROOT::Math::DefaultCoordinateSystemTag> >
+class pat::UserHolder<ROOT::Math::LorentzVector<ROOT::Math::PtEtaPhiM4D<double> > >
+class pat::UserHolder<ROOT::Math::LorentzVector<ROOT::Math::PxPyPzE4D<double> > >
+class pat::UserHolder<ROOT::Math::PositionVector3D<ROOT::Math::Cartesian3D<double>,ROOT::Math::DefaultCoordinateSystemTag> >
+class pat::UserHolder<ROOT::Math::SMatrix<double,2,2,ROOT::Math::MatRepSym<double,2> > >
+class pat::UserHolder<ROOT::Math::SMatrix<double,3,3,ROOT::Math::MatRepSym<double,3> > >
+class pat::UserHolder<ROOT::Math::SMatrix<double,4,4,ROOT::Math::MatRepSym<double,4> > >
+class pat::UserHolder<ROOT::Math::SMatrix<double,5,5,ROOT::Math::MatRepSym<double,5> > >
+class pat::UserHolder<ROOT::Math::SVector<double,2> >
+class pat::UserHolder<ROOT::Math::SVector<double,3> >
+class pat::UserHolder<ROOT::Math::SVector<double,4> >
+class pat::UserHolder<ROOT::Math::SVector<double,5> >
+class pat::UserHolder<reco::Track>
+class pat::UserHolder<reco::Vertex>
+class pat::UserHolder<vector<unsigned int> >
+class vector<edm::Ptr<pat::UserData> >
+class vector<pat::UserData*>
+header DataFormats/PatCandidates/interface/UserData.h
+# List of selected typedefs and outer classes

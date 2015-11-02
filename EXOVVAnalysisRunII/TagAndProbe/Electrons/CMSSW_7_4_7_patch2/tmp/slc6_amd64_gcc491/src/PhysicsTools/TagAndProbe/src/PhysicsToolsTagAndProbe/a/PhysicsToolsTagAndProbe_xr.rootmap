@@ -1,0 +1,8 @@
+[ libPhysicsToolsTagAndProbe.so ]
+# List of selected classes
+class RooCBExGaussShape
+class RooCMSShape
+class ZGeneratorLineShape
+header PhysicsTools/TagAndProbe/interface/RooCBExGaussShape.h
+header PhysicsTools/TagAndProbe/interface/RooCMSShape.h
+header PhysicsTools/TagAndProbe/interface/ZGeneratorLineShape.h
